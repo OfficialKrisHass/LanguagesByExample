@@ -13,7 +13,7 @@ int app() {
 
     std::cout << "/n";
 
-    std::cout << "This text\nis seperated\n"  "into multiple\nlines\nwith one\nprint call\n";
+    std::cout << "This text\nis seperated\n" < "into multiple\nlines\nwith one\nprint call\n";
 
     return 0;
 

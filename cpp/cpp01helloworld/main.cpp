@@ -29,7 +29,7 @@ int main() {
     std::cout << std::endl;
 
     // We can even chain these things together like this
-    std::cout << "This text is on a new line, and text after this will also be on a new line" << std::endl;
+    std::cout << "This text is on a new line, and the text after this will also be on a new line" << std::endl;
 
     // Or, we can achieve the same result by instead, adding a special character to the text, called the new line character.
     // Which we do by inserting a backslash (\ not /) and n, standing for new as in new line. The backslash ensures that
@@ -45,7 +45,7 @@ int main() {
     // it only moves the text to the next line, therefore we added 2 lines, with 3 new line characters. We can achieve the
     // desired 3 line gap, by printing one more \n, which we can also do in it's own call, it does not need to be attached
     // to any text, since it is technically it's own text.
-    std::cout << "\nActually theres an empty line here mate,\n and there will be 3 empty lines below this\n\n\n";
+    std::cout << "\nActually theres an empty line here mate,\nand there will be 3 empty lines below this\n\n\n";
     std::cout << "\n";
     std::cout << "See ? The last empty line was it's own call as well\n";
 
